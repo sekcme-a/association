@@ -1,0 +1,16 @@
+:root {
+  --primary: #1888ff;
+}
+
+.btn {
+  background-color: var(--primary);
+}
+
+.btn:hover{
+  padding: 6px 18px;
+  transition: all 0.3s ease-out;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  border: 2px solid var(--primary);
+}
